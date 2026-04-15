@@ -253,6 +253,48 @@ TEST(VECTOR, ScalarAssignmentDivision) {
   EXPECT_NEAR(0.0, vector1[1], 0.00001);
 }
 
+// My own tests for the implemented functions
+
+TEST(VECTOR, MySquareOfLength2df) {
+  Vector2df v = {3.0f, 4.0f};
+  EXPECT_NEAR(25.0f, v.square_of_length(), 0.00001);
+}
+
+TEST(VECTOR, MySquareOfLength3df) {
+  Vector3df v = {1.0f, 2.0f, 2.0f};
+  EXPECT_NEAR(9.0f, v.square_of_length(), 0.00001);
+}
+
+TEST(VECTOR, MyLength2df) {
+  Vector2df v = {0.0f, 1.0f};
+  EXPECT_NEAR(1.0f, v.length(), 0.00001);
+}
+
+TEST(VECTOR, MyLength3df) {
+  Vector3df v = {0.0f, 3.0f, 4.0f};
+  EXPECT_NEAR(5.0f, v.length(), 0.00001);
+}
+
+TEST(VECTOR, MyNormalize2df) {
+  Vector2df v = {3.0f, 4.0f};
+  v.normalize();
+  EXPECT_NEAR(1.0f, v.length(), 0.00001);
+  EXPECT_NEAR(0.6f, v[0], 0.00001);
+  EXPECT_NEAR(0.8f, v[1], 0.00001);
+}
+
+TEST(VECTOR, MyInnerProduct2df) {
+  Vector2df v1 = {1.0f, 2.0f};
+  Vector2df v2 = {3.0f, 4.0f};
+  EXPECT_NEAR(11.0f, v1 * v2, 0.00001);
+}
+
+TEST(VECTOR, MyInnerProduct3df) {
+  Vector3df v1 = {1.0f, 0.0f, 0.0f};
+  Vector3df v2 = {0.0f, 1.0f, 0.0f};
+  EXPECT_NEAR(0.0f, v1 * v2, 0.00001);
+}
+
 /*
 TEST(VECTOR, ScalarVectorProduct1) {
   Vector2df vector1 = {1.0, 0.0};

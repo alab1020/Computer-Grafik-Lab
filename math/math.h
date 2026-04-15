@@ -74,20 +74,18 @@ struct Vector {
   friend Vector<F, K> operator-(const Vector<F, K> value, const Vector<F, K> minuend);
 
   // returns the (euclidian) length of this Vector
-  /*
+  
   FLOAT_TYPE length() const;
-  */
+
+
+  
   
   // returns the square of the this Vector's length
-  /*
   FLOAT_TYPE square_of_length() const;
-  */
 
   // returns the scalar (inner) product of two Vectors
-  /*
   template <class F, size_t K>    
   friend F operator*(Vector<F, K> vector1, const Vector<F, K> vector2);
-  */
 };
 
 static const long double PI = std::acos(-1.0L);
