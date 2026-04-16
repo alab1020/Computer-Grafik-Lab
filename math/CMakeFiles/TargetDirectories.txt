@@ -1,3 +1,0 @@
-/home/hakim/Studium/CG-Lab/math/CMakeFiles/math_test.dir
-/home/hakim/Studium/CG-Lab/math/CMakeFiles/edit_cache.dir
-/home/hakim/Studium/CG-Lab/math/CMakeFiles/rebuild_cache.dir

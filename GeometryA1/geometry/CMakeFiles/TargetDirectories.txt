@@ -1,0 +1,4 @@
+/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/GeometryA1/geometry/CMakeFiles/math_test.dir
+/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/GeometryA1/geometry/CMakeFiles/geometry_test.dir
+/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/GeometryA1/geometry/CMakeFiles/edit_cache.dir
+/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/GeometryA1/geometry/CMakeFiles/rebuild_cache.dir

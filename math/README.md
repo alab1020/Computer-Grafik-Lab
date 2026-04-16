@@ -1,1 +1,0 @@
-# Computer-Grafik-Lab
