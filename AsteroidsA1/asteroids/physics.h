@@ -5,6 +5,7 @@
 #include <vector>
 #include <functional>
 #include <iostream>
+#include <algorithm>
 
 #include "math.h"
 #include "timer.h"
