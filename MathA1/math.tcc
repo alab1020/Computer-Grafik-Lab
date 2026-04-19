@@ -120,16 +120,17 @@ FLOAT_TYPE Vector<FLOAT_TYPE, N>::square_of_length() const {
 
 template <class FLOAT_TYPE, size_t N>
 FLOAT_TYPE Vector<FLOAT_TYPE, N>::length() const {
+ 
   return std::sqrt(square_of_length());
 }
 
 template <class FLOAT_TYPE, size_t N>    
 FLOAT_TYPE operator*(Vector<FLOAT_TYPE, N> vector1, const Vector<FLOAT_TYPE, N> vector2) {
-  FLOAT_TYPE dot = 0;
+  FLOAT_TYPE scalar = 0;
   for (size_t i = 0; i < N; ++i) {
-    dot += vector1.vector[i] * vector2.vector[i];
+    scalar += vector1.vector[i] * vector2.vector[i];
   }
-  return dot;
+  return scalar;
 }
 
 
