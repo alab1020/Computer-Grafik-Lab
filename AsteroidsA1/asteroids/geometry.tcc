@@ -141,8 +141,8 @@ bool Sphere<FLOAT,N>::intersects(Sphere<FLOAT, N> sphere) const {
 // Der Punkt liegt in der Sphäre wenn das Quadrat der Distanz zum Mittelpunkt <= radius²
 template <class FLOAT, size_t N>
 bool Sphere<FLOAT,N>::inside(const Vector<FLOAT, N> p) const {
-  Vector<FLOAT, N> diff = p - center;
-  return diff.square_of_length() <= radius * radius;
+  Vector<FLOAT, N> distance = p - center;
+  return distance.square_of_length() <= radius * radius;
 }
 // Konstruktor für Dreieck mit benutzerdefinierten Normalen an jedem Vertex
 template <class FLOAT, size_t N>

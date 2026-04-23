@@ -93,7 +93,7 @@ public:
   // returns a value t such that ray.origin + t * ray.direction is the intersection point
   // t is zero if no intersection occured
   FLOAT intersects(const Ray<FLOAT, N> &ray) const;
-
+// Ergängung zu der Aufgabe
   // returns true iff this Sphere intersects with the given sphere
   bool intersects(Sphere<FLOAT, N> sphere) const;
   

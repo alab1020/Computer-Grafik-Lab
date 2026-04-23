@@ -138,8 +138,8 @@ TEST(AABB, SweepIntersects2df_5) {
 
 // Testet die 2D-Sphärenüberlappung anhand zweier sich wirklich schneidender Kreise
 TEST(SPHERE, Intersects2dfWithSphere_1) {
-  Sphere2df sphere1 = { {0.0, 0.0}, 1.0 };
-  Sphere2df sphere2 = { {1.0, 1.0}, 0.5 };
+  Sphere2df sphere1 = { {4.0, 5.0}, 4.0 };
+  Sphere2df sphere2 = { {1.0, 1.0}, 1.5 };
   
   EXPECT_TRUE( sphere1.intersects(sphere2) );
 }

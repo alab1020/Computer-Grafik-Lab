@@ -108,7 +108,7 @@ FLOAT_TYPE Vector<FLOAT_TYPE, N>::angle(size_t axis_1, size_t axis_2) const {
   Vector<FLOAT_TYPE, N> normalized = (1.0f / length()) * *this;
   return atan2( normalized[axis_2], normalized[axis_1] );
 }
-
+//Ergängung zu der Aufgabe
 template <class FLOAT_TYPE, size_t N>
 FLOAT_TYPE Vector<FLOAT_TYPE, N>::square_of_length() const {
   FLOAT_TYPE sum = 0;
