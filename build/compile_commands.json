@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -g -Wall -Wextra -Wpedantic -Wl,--stack,16777216 -o CMakeFiles/math_test.dir/math_test.cc.o -c /home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/MathA1/math_test.cc",
+  "file": "/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/MathA1/math_test.cc",
+  "output": "CMakeFiles/math_test.dir/math_test.cc.o"
+},
+{
+  "directory": "/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -g -Wall -Wextra -Wpedantic -Wl,--stack,16777216 -o CMakeFiles/math_test.dir/math.cc.o -c /home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/MathA1/math.cc",
+  "file": "/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/MathA1/math.cc",
+  "output": "CMakeFiles/math_test.dir/math.cc.o"
+}
+]
