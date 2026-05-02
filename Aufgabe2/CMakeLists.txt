@@ -9,7 +9,7 @@ add_compile_options(-g -Wall -Wextra -Wpedantic -Wl,--stack,16777216)
 # Include path for math headers
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../MathA1)
 
-add_executable(math_test math_test.cc math.cc)
+add_executable(math_test math_test.cc math.cc raytracer.cc)
 target_link_libraries(math_test gtest gtest_main)
 
 add_executable(geometry_test geometry_test.cc math.cc geometry.cc)
