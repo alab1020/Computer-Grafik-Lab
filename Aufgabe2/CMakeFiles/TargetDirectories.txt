@@ -1,0 +1,4 @@
+/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/Aufgabe2/CMakeFiles/math_test.dir
+/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/Aufgabe2/CMakeFiles/geometry_test.dir
+/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/Aufgabe2/CMakeFiles/edit_cache.dir
+/home/hakim/Dokumente/GitHub/Computer-Grafik-Lab/Aufgabe2/CMakeFiles/rebuild_cache.dir
